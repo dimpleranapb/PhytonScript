@@ -31,15 +31,19 @@ To start Chrome with remote debugging:
 2. Open a terminal/command prompt and run:
 
 ```bash
-chrome --remote-debugging-port=9222
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
 ```
+3.In the address bar, enter the following URL and press Enter:
+https://dexscreener.com/solana/
+Wait for the page to load fully, and make sure the list of Solana tokens appears on the page.
+
 
 ### Run the Script
 
 Once Chrome is running with remote debugging enabled, execute the Python script:
 
 ```bash
-python collect_wallet_addresses.py
+python scraper.py
 ```
 
 ### Output
